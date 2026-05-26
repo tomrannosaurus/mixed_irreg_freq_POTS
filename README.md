@@ -73,6 +73,12 @@ Copy `dependencies/BiTimelyGPT-main/` and `dependencies/sim_dgp.R` from this rep
 
 The PhysioNet experiment notebooks require the [PhysioNet Computing in Cardiology Challenge 2012](https://physionet.org/content/challenge-2012/1.0.0/) dataset (Sets A, B, and C). Download it from PhysioNet and place it under `MyDrive/physionet2012/` as shown above.
 
+The sets are used as follows:
+
+- **Set A** → training
+- **Set B** → validation
+- **Set C** → test
+
 ### 3. Runtime settings
 
 - **Hardware accelerator:** T4 GPU (Runtime → Change runtime type → T4 GPU)
